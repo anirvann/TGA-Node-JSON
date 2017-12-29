@@ -12,6 +12,8 @@ install node dependencies with "npm install"
 
 ###CI
 Continuous integration carried on with Travis
+https://travis-ci.org/anirvann/TGA-Node-JSON
 
 ###Coverage
 Coverage reports generated in coveralls.io
+https://coveralls.io/github/anirvann/TGA-Node-JSON 
