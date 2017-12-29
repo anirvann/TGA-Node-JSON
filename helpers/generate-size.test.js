@@ -8,7 +8,8 @@ describe('GenerateSizeKey', function() {
   var stream = { a: 1 };
 
   it('should add size key', function() {
-    generateSize(stream, cb);
+    var callback = sinon.spy();
+    generateSize(stream, callback);
     expect(stream).to.deep.equal({
       a: 1,
       size: 7
