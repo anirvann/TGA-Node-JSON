@@ -14,6 +14,7 @@ module.exports = {
     "no-undef": 0,
     "one-var": 0,
     "prefer-arrow-callback": 0,
-    "comma-dangle": 0
+    "comma-dangle": 0,
+    "linebreak-style": 0
   }
 };
