@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "5a4295a816ee1e6bb3e9db29",
+        "index": 0,
+        "guid": "1a26520b-f95d-48c9-b7bd-7d6d64763f6d",
+        "isActive": false,
+        "balance": "$2,673.18",
+        "picture": "http://placehold.it/32x32",
+        "age": 28,
+        "eyeColor": "green",
+        "name": {
+            "first": "Beth",
+            "last": "Hicks"
+        },
+        "company": "KAGGLE",
+        "email": "beth.hicks@kaggle.name",
+        "phone": "+1 (891) 565-2098",
+        "address": "994 Sullivan Street, Caroleen, American Soa, 2797"
+    },
+    {
+        "_id": "5a4295a816ee1e6bb3e9db29",
+        "index": 0,
+        "guid": "1a26520b-f95d-48c9-b7bd-7d6d64763f6d",
+        "isActive": false,
+        "balance": "$2,673.18",
+        "picture": "http://placehold.it/32x32",
+        "age": 28,
+        "eyeColor": "green",
+        "name": {
+            "first": "Beth",
+            "last": "Hicks"
+        },
+        "company": "KAGGLE",
+        "email": "beth.hicks@kaggle.name",
+        "phone": "+1 (891) 565-2098",
+        "address": "994 Sullivan Street, Caroleen, American Samoa, 2797"
+    }
+]

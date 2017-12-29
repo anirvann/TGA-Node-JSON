@@ -1,0 +1,45 @@
+{
+  "name": "tga-node-json",
+  "version": "1.0.0",
+  "description": "Simple code to read a large JSON file and create an updated JSON file",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nyc mocha helpers/*.test.js",
+    "test-continuous": "mocha --recursive --watch helpers/*.test.js",
+    "clean": "rimraf -rf node_modules",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "eslint helpers/*.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirvann/TGA-Node-JSON.git"
+  },
+  "keywords": [
+    "node",
+    "JSON",
+    "stream"
+  ],
+  "author": "anirvann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anirvann/TGA-Node-JSON/issues"
+  },
+  "homepage": "https://github.com/anirvann/TGA-Node-JSON#readme",
+  "dependencies": {
+    "JSONStream": "^1.3.2",
+    "event-stream": "^3.3.4",
+    "js-yaml": "^3.10.0",
+    "write": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.1.0",
+    "nyc": "^11.4.1",
+    "sinon": "^4.1.3"
+  }
+}
